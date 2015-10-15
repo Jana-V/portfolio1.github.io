@@ -1,0 +1,168 @@
+/**** Home page ****/
+
+
+/*.jumbotron {
+	background-image: url("../img/mountains.jpg");
+	background-size: cover;
+}
+.jumbotron h1 {
+	color: white;
+	font-family: BrandonGrotesque-Regular,sans-serif;
+}
+.jumbotron p {
+	color: white;
+}*/
+
+.nav {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.nav ul li {
+	display: inline-block;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	padding: 8px 8px 8px;
+	float: right;
+}
+.nav ul li a {
+	color: #FFFFFF;
+	font-family: BrandonGrotesque-Regular,sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: color 800ms;
+	-webkit-transition: color 800ms;
+}
+.nav a:hover {
+	color: #8DD5FF;
+	text-decoration: none;
+}
+.nav {
+	z-index: 1;
+}
+.carousel-caption {
+	padding: 10px 100px 450px 100px;
+}
+.carousel-caption h3 {
+	font-size: 2em;
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.images {
+	padding: 15px;
+}
+
+
+
+
+/**** Contact page ****/
+
+/*.jumbotron {
+	background-image: url("../img/mountains.jpg");
+	background-size: cover;
+}
+.jumbotron h1 {
+	color: #FFFFFF;
+}
+.jumbotron p {
+	color: #FFFFFF;
+}*/
+.contact {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 60px;
+}
+.map {
+	text-align: center;
+	margin-top: 30px;
+}
+.map h2 {
+	padding-bottom: 15px;
+}
+body {
+	background-color: #FAFFFD;
+}
+.map p {
+	font-size: 2em;
+	transition: color 700ms;
+	-webkit-transition: color 700ms;
+}
+.map p:hover {
+	color: #DD2817;
+	text-decoration: none;
+}
+
+
+/**** FAQ page ****/
+
+.panel-body {
+	font-family: BrandonGrotesque-Regular,sans-serif;
+	color: #D7D0DE;
+	background-color: #243A2B;
+}
+.panel-heading {
+	text-transform: uppercase;
+}
+.panel-title {
+	color: #0E3309;;
+}
+.container {
+	padding: 60px 200px;
+}
+
+
+/**** About page ****/
+
+.about h1 {
+	text-align: left;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	text-transform: uppercase;
+	color: #E8E7E3;
+}
+.body {
+	background-color: #FAFFFD;
+	color: #34495e;
+}
+.profilepic {
+	padding: 5px;
+}
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: 100;
+	padding: 5px;
+}
+.skills {
+	background-color: #70D466;
+	color: #FFF;
+	padding: 38px 0;
+}
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.main_text {
+	padding: 0px 15px;
+}
+
+
+
+/*Typography*/
+h1
+h2
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p
+li {
+	font-family: Georgia, Big Caslon, Baskerville, serif;
+}
+
+
+
