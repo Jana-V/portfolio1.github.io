@@ -13,20 +13,20 @@
 	color: white;
 }*/
 
-.nav {
+/*.navbar {
 	background-color: black;
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-.nav ul li {
+.navbar ul li {
 	display: inline-block;
 	letter-spacing: 0.05em;
 	color: #FFFFFF;
 	padding: 8px 8px 8px;
 	float: right;
 }
-.nav ul li a {
+.navbar ul li a {
 	color: #FFFFFF;
 	font-family: BrandonGrotesque-Regular,sans-serif;
 	font-weight: 100;
@@ -35,12 +35,19 @@
 	transition: color 800ms;
 	-webkit-transition: color 800ms;
 }
-.nav a:hover {
+.navbar a:hover {
 	color: #8DD5FF;
 	text-decoration: none;
 }
-.nav {
+.navbar {
 	z-index: 1;
+}*/
+.Home {
+	text-transform: uppercase;
+}
+
+.Home a {
+	color: white;
 }
 .carousel-caption {
 	padding: 10px 100px 450px 100px;
@@ -54,6 +61,12 @@
 }
 .images {
 	padding: 15px;
+}
+body {
+	position: relative;
+}
+.anchor {
+	padding-top: 50px;
 }
 
 
@@ -71,7 +84,7 @@
 .jumbotron p {
 	color: #FFFFFF;
 }*/
-.contact {
+/*.contact {
 	text-align: left;
 	padding-top: 20px;
 	padding-left: 60px;
@@ -85,16 +98,26 @@
 }
 body {
 	background-color: #FAFFFD;
+}*/
+
+#contact {
+	background-image: url("../img/magic.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+    padding: 100px;
+	padding-top: 50px;
+	height: 400px;
 }
-.map p {
+/*.??? {
 	font-size: 2em;
 	transition: color 700ms;
 	-webkit-transition: color 700ms;
 }
-.map p:hover {
+.??? {
 	color: #DD2817;
 	text-decoration: none;
-}
+}*/
 
 
 /**** FAQ page ****/
@@ -110,10 +133,10 @@ body {
 .panel-title {
 	color: #0E3309;;
 }
-.container {
+/*.container {
 	padding: 60px 200px;
 }
-
+*/
 
 /**** About page ****/
 
