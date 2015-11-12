@@ -42,6 +42,13 @@
 .navbar {
 	z-index: 1;
 }*/
+
+nav {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
 .Home {
 	text-transform: uppercase;
 }
@@ -69,7 +76,11 @@ body {
 	padding-top: 50px;
 }
 
+/**** Row page ****/
 
+.row {
+	margin: 30px;
+}
 
 
 /**** Contact page ****/
@@ -122,6 +133,11 @@ body {
 
 /**** FAQ page ****/
 
+#faq {
+	display: block;
+	margin: 30px;
+}
+
 .panel-body {
 	font-family: BrandonGrotesque-Regular,sans-serif;
 	color: #D7D0DE;
@@ -139,6 +155,10 @@ body {
 */
 
 /**** About page ****/
+
+#about {
+	margin: 30px;
+}
 
 .about h1 {
 	text-align: left;
@@ -173,6 +193,31 @@ body {
 .main_text {
 	padding: 0px 15px;
 }
+
+
+
+.video {
+	margin: auto;
+	width: 50%;
+}
+
+
+
+
+footer {
+	margin: 30px;
+	display: block;
+	padding: 50px;
+	text-align: left;
+	background-color: #10B812;
+}
+footer .copyright {
+	float: right;
+}
+footer .social media {
+	float: left;
+}
+
 
 
 
