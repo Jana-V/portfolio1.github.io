@@ -110,19 +110,19 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4 col-xs-8">
-          <h2>Portfolio Concept</h2>
-          <p>Pictures, about me, contact me, social media buttons </p>
-          <p><a class="btn btn-default" href="about.html" role="button">About Me &raquo;</a></p>
+          <h2>Portfolio Concept</h2> 
+          <p>Pictures, <a href="#about" title="More Information" id="item1">about me</a>, contact me, social media buttons </p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information">View details.</button>
         </div>
         <div class="col-md-4 col-xs-8">
           <h2>Contact</h2>
           <p>Information on how to get in touch</p>
-          <p><a class="btn btn-default" href="contact.html" role="button">View details &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More information">View Details</button>
        </div>
         <div class="col-md-4 col-xs-8">
           <h2>Course Goals</h2>
           <p>I am changing careers and ultimately would like to be hired as an entry level developer.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More information">View Details</button>
         </div>
       </div>
 
@@ -130,6 +130,7 @@
 
 
     </div> <!-- /container -->
+
 
   <!-- **** Work Page **** -->
    <div class="container anchor" id="work">
@@ -170,9 +171,12 @@
     </div>
 
 
+
+
   <!-- **** About Page **** -->
 
-    <div class="container-fluid anchor" id="about">
+    <div class="container-fluid anchor" id="about" div data-stellar-background-ratio="2">
+
 
             <h1>About Me</h1>
 
@@ -185,7 +189,6 @@
 
                 <div class="col-md-4">
                   <div class="intro column">
-                    <h2>A bit about me?</h2>
                     <p>Hi there! I'm Jana, I love design, coding, and learning new things. Nice to meet you!</p>
                   </div>      
                 </div>
@@ -215,7 +218,40 @@
 
   <!-- **** FAQ Page **** -->
 
-    <div class="container-fluid anchor" id="faq">
+  <div class="container-fluid anchor" id="faq">
+
+      <div class="row">
+          <h2 class="faq">FAQ</h2>
+          <!--Small modal button-->
+          <div class="modal-button">
+              <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Resume</button>
+          </div>
+      </div>
+
+
+
+<!-- Small modal -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Resume</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+
+          <div class="modal-body">
+              <embed id="modalEmbed" src="http://www.smashingmagazine.com/images/design-cv-resume/evalotta_lamm.pdf"> </embed>
+            
+          </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
       <div class="panel-group" id="accordion">
           <div class="panel panel-default">
@@ -283,40 +319,40 @@
             <h1>Get in Touch!</h1>
             <br>
             <p><span class="glyphicon glyphicon-facetime-video"></span> Skype: jvecerkova</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> Email: j.vecerkova@yahoo.com</p>
-            <p><span class="glyphicon glyphicon-earphone"></span> Call me on +32 789 543</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:j.vecerkova@yahoo.com">j.vecerkova@yahoo.com</a></p>
+            <p><span class="glyphicon glyphicon-earphone"></span> <a href="Call me on +32 789 543">+32 789 543</a>   </p>
           </div>
 
-	    <!-- **** Form **** -->
-	    
-	    <div class="col-lg-8 col-md-8">
-		    <h1>Have a question?</h1>
-		    <form>
-		      
-		      <div class="form-group">
-		      	  <h6>Your name*</h6>
-		      	  <label for="Your name"></label>
-		          <input placeholder="Enter your name" class="form-control" id="Your name" title="Name and Surname" type="text" required="required">
+      <!-- **** Form **** -->
+      
+      <div class="col-lg-8 col-md-8">
+        <h1>Have a question?</h1>
+        <form>
+          
+          <div class="form-group">
+              <h6>Your name*</h6>
+              <label for="Your name"></label>
+              <input placeholder="Enter your name" class="form-control" id="Your name" title="Name and Surname" type="text" required="required">
 
-		          <h6>Your email*</h6>
-		          <input placeholder="Enter your email" class="form-control" id="Your name" type="email" required="required">
+              <h6>Your email*</h6>
+              <input placeholder="Enter your email" class="form-control" id="Your name" type="email" required="required">
 
-		          <h6>Your phone number</h6>
-		          <input type="number" placeholder="Enter your phone number" class="form-control" id="Your name">
+              <h6>Your phone number</h6>
+              <input type="number" placeholder="Enter your phone number" class="form-control" id="Your name">
 
-		      </div>
+          </div>
 
-		      <div class="message-box">
-			          	<h6>Your message</h6>
-			          	<textarea placeholder="Your message here" class="message-box" style="resize:none" cols="50" rows="2" maxlength=200></textarea>
-			  </div>
+          <div class="message-box">
+                  <h6>Your message</h6>
+                  <textarea placeholder="Your message here" class="message-box" style="resize:none" cols="57" rows="2" maxlength=200></textarea>
+        </div>
 
-			  <br>
+        <br>
 
-			   <button type="submit" class="btn btn-default btn-block btn-info">Ask</button>
+         <button type="submit" class="btn btn-default btn-block btn-info" class="form-control">Ask</button>
 
-	    	</form>
-	    </div>
+        </form>
+      </div>
 
 
     </div>
@@ -348,6 +384,26 @@
 
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Tool tip jQuery -->
+    <script>
+      $(function () {
+        $('#item1').tooltip();
+      });
+    </script>
+
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <!-- Can place script tags with JavaScript files here -->
+
+    <script src="js/jquery.stellar.min.js"></script>
+
+
 
     <script type="text/javascript">
       var $root = $('html, body');
