@@ -1,254 +1,445 @@
-/**** Home page ****/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Hello World!</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">  
+
+  </head> 
+
+  <body>
+    <body data-spy="scroll" data-target=".navbar">
+    <!--navbar starts here-->
+    
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>               
+                </button>
+                <div class="Home navbar-brand">
+                  <a href="#index">Home</a>
+                </div>
+             </div>
+
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#faq">FAQ</a></li>
+                  <li>/</li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li>/</li>
+                  <li><a href="#work">Work</a></li>
+                  <li>/</li>
+                  <li><a href="#about">About</a></li>
+                  <li>/</li>
+                  <li><a href="#index">Home</a></li>
+              </ul>
+            </div>  <!-- nav -->
+            
+          </div>  <!-- end nav container -->
+      </nav>  <!-- end navbar-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+  <!--   <div class="jumbotron">
+      <div class="container">
+        <h1>Jana Vecerkova. Webmaster.</h1>
+        <br>
+        <br>
+        <p><strong>Serving all of your web development needs.</strong></p>
+        <p>I transform ideas into websites.</p>
+        <a href="http://google.com">Learn more</a>
+
+      </div>
+    </div> -->
+
+     <div class="container-fluid anchor" id="index">
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/hero1.jpg" alt="Table">
+            <div class="carousel-caption">
+                <h3>Want your website to make your business stand out?</h3>
+                <p>Great website helps you get more customers and increase your sales</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/hero2.jpg" alt="Typewriter">
+            <div class="carousel-caption">
+                <h3>Unique Design</h3>
+                <p>To achieve your specific goals</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/hero3.jpg" alt="Desk">
+            <div class="carousel-caption">
+                <h3>Let's work together!</h3>
+                <p>Get in touch and we make it happen!</p>
+            </div>
+          </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 
-/*.jumbotron {
-	background-image: url("../img/mountains.jpg");
-	background-size: cover;
-}
-.jumbotron h1 {
-	color: white;
-	font-family: BrandonGrotesque-Regular,sans-serif;
-}
-.jumbotron p {
-	color: white;
-}*/
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 col-xs-8">
+          <h2>Portfolio Concept</h2> 
+          <p>Pictures, <a href="#about" title="More Information" id="item1">about me</a>, contact me, social media buttons </p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information">View details.</button>
+        </div>
+        <div class="col-md-4 col-xs-8">
+          <h2>Contact</h2>
+          <p>Information on how to get in touch</p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More information">View Details</button>
+       </div>
+        <div class="col-md-4 col-xs-8">
+          <h2>Course Goals</h2>
+          <p>I am changing careers and ultimately would like to be hired as an entry level developer.</p>
+          <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More information">View Details</button>
+        </div>
+      </div>
 
-/*.navbar {
-	background-color: black;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.navbar ul li {
-	display: inline-block;
-	letter-spacing: 0.05em;
-	color: #FFFFFF;
-	padding: 8px 8px 8px;
-	float: right;
-}
-.navbar ul li a {
-	color: #FFFFFF;
-	font-family: BrandonGrotesque-Regular,sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
-}
-.navbar a:hover {
-	color: #8DD5FF;
-	text-decoration: none;
-}
-.navbar {
-	z-index: 1;
-}*/
-
-nav {
-	padding-left: 10px;
-	padding-right: 10px;
-}
+      <hr>
 
 
-.Home {
-	text-transform: uppercase;
-}
-
-.Home a {
-	color: white;
-}
-.carousel-caption {
-	padding: 10px 100px 450px 100px;
-}
-.carousel-caption h3 {
-	font-size: 2em;
-}
-.container-fluid {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-.images {
-	padding: 15px;
-}
-body {
-	position: relative;
-}
-.anchor {
-	padding-top: 50px;
-}
-
-/**** Row page ****/
-
-.row {
-	margin: 30px;
-}
+    </div> <!-- /container -->
 
 
-/**** Contact page ****/
-
-/*.jumbotron {
-	background-image: url("../img/mountains.jpg");
-	background-size: cover;
-}
-.jumbotron h1 {
-	color: #FFFFFF;
-}
-.jumbotron p {
-	color: #FFFFFF;
-}*/
-/*.contact {
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 60px;
-}
-.map {
-	text-align: center;
-	margin-top: 30px;
-}
-.map h2 {
-	padding-bottom: 15px;
-}
-body {
-	background-color: #FAFFFD;
-}*/
-
-
-/*.??? {
-	font-size: 2em;
-	transition: color 700ms;
-	-webkit-transition: color 700ms;
-}
-.??? {
-	color: #DD2817;
-	text-decoration: none;
-}*/
-
-
-/**** FAQ page ****/
-
-#faq {
-	display: block;
-	margin: 30px;
-}
-
-.panel-body {
-	font-family: BrandonGrotesque-Regular,sans-serif;
-	color: #D7D0DE;
-	background-color: #243A2B;
-}
-.panel-heading {
-	text-transform: uppercase;
-}
-.panel-title {
-	color: #0E3309;;
-}
-/*.container {
-	padding: 60px 200px;
-}
-*/
-
-/**** About page ****/
-
-#about {
-	margin: 30px;
-}
-
-.about h1 {
-	text-align: left;
-	margin-top: 100px;
-	margin-bottom: 40px;
-	padding-left: 15px;
-	text-transform: uppercase;
-	color: #E8E7E3;
-}
-.body {
-	background-color: #FAFFFD;
-	color: #34495e;
-}
-.profilepic {
-	padding: 5px;
-}
-.intro p {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	font-weight: 100;
-	padding: 5px;
-}
-.skills {
-	background-color: #70D466;
-	color: #FFF;
-	padding: 38px 0;
-}
-.skills h3 {
-	text-align: center;
-	text-transform: uppercase;
-}
-.main_text {
-	padding: 0px 15px;
-}
-
-
-
-.video {
-	margin: auto;
-	width: 50%;
-}
-
-/**** Contact ****/
-
-#contact {
-	margin-top: 30px; 
-	background-image: url("../img/magic.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	color: white;
-    padding: 100px;
-	padding-top: 30px;
-	padding-bottom: 20px;
-	height: 500px;
-	text-align: left;
-}
+  <!-- **** Work Page **** -->
+   <div class="container anchor" id="work">
+      <div class="row" div id="collaboration"> 
+          <div class="col-lg-3 col-md-4 col-xs-6"> 
+              <div class="images">
+              <img src="img/environment.jpg" class="img-responsive">
+              </div>
+              <div class="images">
+              <img src="img/timing.jpg" class="img-responsive">
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6"> 
+              <div class="images">
+              <img src="img/coffee.jpg" class="img-responsive">
+              </div>
+              <div class="images">
+              <img src="img/change.jpg" class="img-responsive">
+              </div>
+          </div>
+         <div class="col-lg-3 col-md-4 col-xs-6"> 
+              <div class="images">
+              <img src="img/tea.jpg" class="img-responsive">
+              </div>
+              <div class="images">
+              <img src="img/technology.jpg" class="img-responsive">
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6"> 
+              <div class="images">
+              <img src="img/connect.jpg" class="img-responsive">
+              </div>
+              <div class="images">
+              <img src="img/notebook.jpg" class="img-responsive">
+              </div>
+          </div>
+      </div>
+    </div>
 
 
 
 
-/**** Form ****/
+  <!-- **** About Page **** -->
 
-.form-control {
-	width: 60%;
-}
+    <div class="container-fluid anchor" id="about" div data-stellar-background-ratio="2">
 
 
+            <h1>About Me</h1>
+
+              <div class="row" div id="main-columns">
+                <div class="col-md-4">
+                  <div class="profilepic">
+                    <img src="img/javec.jpg" alt="Myself">
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="intro column">
+                    <p>Hi there! I'm Jana, I love design, coding, and learning new things. Nice to meet you!</p>
+                  </div>      
+                </div>
+
+                <div class="col-md-4">
+                  <div class="skills column">
+                    <h3>My skills</h3>
+                    <ul id="skill_list">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Project Management</li>
+                      <li>Growth Hacking</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
 
-/**** Footer page ****/
+            <div class="main_text">
+                <h3>My Story</h3>
+                <p>I lived in the UK and the US and now I'm in between Brussels, Belgium and Prague, Czech Republic. Im also an experienced management professional and have worked with startups, which I truly loved. In my other life I'm an enthusiastic skier, cyclist, jogger, tennis and badminton player. </p>
 
-footer {
-	display: block;
-	padding: 50px;
-	text-align: left;
-	background-color: #10B812;
-	margin: 30px;
-}
-footer .copyright {
-	float: right;
-}
-footer .social media {
-	float: left;
-}
+            </div>
+
+    </div>
 
 
+  <!-- **** FAQ Page **** -->
+
+  <div class="container-fluid anchor" id="faq">
+
+      <div class="row">
+          <h2 class="faq">FAQ</h2>
+          <!--Small modal button-->
+          <div class="modal-button">
+              <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Resume</button>
+          </div>
+      </div>
 
 
-/*Typography*/
-h1
-h2
-h3 {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
-p
-li {
-	font-family: Georgia, Big Caslon, Baskerville, serif;
-}
+
+<!-- Small modal -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Resume</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+
+          <div class="modal-body">
+              <embed id="modalEmbed" src="http://www.smashingmagazine.com/images/design-cv-resume/evalotta_lamm.pdf"> </embed>
+            
+          </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+      <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-star"></span>
+                    Who are your clients?
+                  </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-star"></span>
+                    What is your design process?
+                  </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-star"></span>
+                    How will we work together?
+                  </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- **** Video **** -->
+    <div class="video">
+ 
+      <!-- 16:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NUBljbHpRr8"></iframe>
+      </div>
+
+    </div>
+
+
+      <!-- **** Contact Page **** -->
+
+    <div class="container-fluid anchor" id="contact">
+
+          <div class="col-lg-4 col-md-4">
+            <h1>Get in Touch!</h1>
+            <br>
+            <p><span class="glyphicon glyphicon-facetime-video"></span> Skype: jvecerkova</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:j.vecerkova@yahoo.com">j.vecerkova@yahoo.com</a></p>
+            <p><span class="glyphicon glyphicon-earphone"></span> <a href="Call me on +32 789 543">+32 789 543</a>   </p>
+          </div>
+
+      <!-- **** Form **** -->
+      
+      <div class="col-lg-8 col-md-8">
+        <h1>Have a question?</h1>
+        <form>
+          
+          <div class="form-group">
+              <h6>Your name*</h6>
+              <label for="Your name"></label>
+              <input placeholder="Enter your name" class="form-control" id="Your name" title="Name and Surname" type="text" required="required">
+
+              <h6>Your email*</h6>
+              <input placeholder="Enter your email" class="form-control" id="Your name" type="email" required="required">
+
+              <h6>Your phone number</h6>
+              <input type="number" placeholder="Enter your phone number" class="form-control" id="Your name">
+
+          </div>
+
+          <div class="message-box">
+                  <h6>Your message</h6>
+                  <textarea placeholder="Your message here" class="message-box" style="resize:none" cols="57" rows="2" maxlength=200></textarea>
+        </div>
+
+        <br>
+
+         <button type="submit" class="btn btn-default btn-block btn-info" class="form-control">Ask</button>
+
+        </form>
+      </div>
+
+
+    </div>
+
+
+
+
+
+   <!-- **** Footer **** -->
+   <footer>
+     <div class="copyright">
+         Jana Vecerkova &copy; 2015
+     </div>
+     <div class="social media">
+       <a href="https://twitter.com/JVecerkova" class="twitter-follow-button" data-show-count="false">Follow @JVecerkova</a>
+       <br>
+       <div class="fb-like" data-href="https://facebook.com/jana.vecerkova" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+     </div>
+   </footer>
+
+
+
+
+
+
+  <!-- ================================================== -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap core JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Tool tip jQuery -->
+    <script>
+      $(function () {
+        $('#item1').tooltip();
+      });
+    </script>
+
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <!-- Can place script tags with JavaScript files here -->
+
+    <script src="js/jquery.stellar.min.js"></script>
+
+
+
+    <script type="text/javascript">
+      var $root = $('html, body');
+        $('.navbar-nav a').click(function() {
+            var href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
+
+   <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <!-- Facebook -->
+      <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  </body>
+
+
+</html>
+
+
+
+
+
 
 
 
