@@ -1,61 +1,20 @@
-/**** Home page ****/
 
-
-/*.jumbotron {
-	background-image: url("../img/mountains.jpg");
-	background-size: cover;
-}
-.jumbotron h1 {
-	color: white;
-	font-family: BrandonGrotesque-Regular,sans-serif;
-}
-.jumbotron p {
-	color: white;
-}*/
-
-/*.navbar {
-	background-color: black;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.navbar ul li {
-	display: inline-block;
-	letter-spacing: 0.05em;
-	color: #FFFFFF;
-	padding: 8px 8px 8px;
-	float: right;
-}
-.navbar ul li a {
-	color: #FFFFFF;
-	font-family: BrandonGrotesque-Regular,sans-serif;
-	font-weight: 100;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	transition: color 800ms;
-	-webkit-transition: color 800ms;
-}
-.navbar a:hover {
-	color: #8DD5FF;
-	text-decoration: none;
-}
-.navbar {
-	z-index: 1;
-}*/
-
+/**** Navigation ****/
 nav {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
-
 .Home {
 	text-transform: uppercase;
 }
-
 .Home a {
 	color: white;
 }
+#index {
+	background-color: 796B58;
+}
+
+/**** Carousel ****/
 .carousel-caption {
 	padding: 10px 100px 450px 100px;
 }
@@ -66,111 +25,18 @@ nav {
 	padding-right: 0px;
 	padding-left: 0px;
 }
+
+/**** Main columns ****/
+.row {
+	margin: 30px;
+}
+
+/**** Work ****/
 .images {
 	padding: 15px;
 }
-body {
-	position: relative;
 
-}
-.anchor {
-	padding-top: 50px;
-}
-
-/**** Row page ****/
-
-.row {
-	margin: 30px;
-
-}
-
-
-#index {
-	background-color: 796B58;
-}
-
-/**** Contact page ****/
-
-/*.jumbotron {
-	background-image: url("../img/mountains.jpg");
-	background-size: cover;
-}
-.jumbotron h1 {
-	color: #FFFFFF;
-}
-.jumbotron p {
-	color: #FFFFFF;
-}*/
-/*.contact {
-	text-align: left;
-	padding-top: 20px;
-	padding-left: 60px;
-}
-.map {
-	text-align: center;
-	margin-top: 30px;
-}
-.map h2 {
-	padding-bottom: 15px;
-}
-body {
-	background-color: #FAFFFD;
-}*/
-
-
-/*.??? {
-	font-size: 2em;
-	transition: color 700ms;
-	-webkit-transition: color 700ms;
-}
-.??? {
-	color: #DD2817;
-	text-decoration: none;
-}*/
-
-
-/**** FAQ page ****/
-
-#faq {
-	display: block;
-	margin: 30px;
-}
-
-.panel-body {
-	font-family: BrandonGrotesque-Regular,sans-serif;
-	color: #D7D0DE;
-	background-color: #243A2B;
-}
-.panel-heading {
-	text-transform: uppercase;
-}
-.panel-title {
-	color: #0E3309;;
-}
-/*.container {
-	padding: 60px 200px;
-}
-*/
-
-.faq {
-	text-align: left;
-	float: left;
-	margin-top: 10px;
-}
-.modal-button {
-	float: right;
-	margin-top: 10px;
-}
-
-#modalEmbed {
-	height: 500px;
-	width: 100%;
-	padding: 10px;
-}
-
-
-/**** About page ****/
-
+/**** About ****/
 #about {
 	background-image: url("../img/frog.jpg");
 	background-attachment: fixed; 
@@ -181,7 +47,6 @@ body {
 	margin-right: 0px;
 	margin-left: 0px;
 }
-
 #about h1 {
 	text-align: left;
 	color: white;
@@ -215,15 +80,45 @@ body {
 	background-color: #70D466;
 }
 
+/**** FAQ page ****/
+#faq {
+	display: block;
+	margin: 30px;
+}
 
+.panel-body {
+	font-family: BrandonGrotesque-Regular,sans-serif;
+	color: #D7D0DE;
+	background-color: #243A2B;
+}
+.panel-heading {
+	text-transform: uppercase;
+}
+.panel-title {
+	color: #0E3309;;
+}
+.faq {
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+}
+.modal-button {
+	float: right;
+	margin-top: 10px;
+}
+#modalEmbed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
 
+/**** Video ****/
 .video {
 	margin: auto;
 	width: 50%;
 }
 
 /**** Contact ****/
-
 #contact {
 	margin-top: 30px; 
 	background-image: url("../img/magic.jpg");
@@ -236,21 +131,11 @@ body {
 	height: 500px;
 	text-align: left;
 }
-
-
-
-
-/**** Form ****/
-
 .form-control {
 	width: 60%;
 }
 
-
-
-
-/**** Footer page ****/
-
+/**** Footer ****/
 footer {
 	display: block;
 	padding: 50px;
@@ -265,7 +150,13 @@ footer .social media {
 	float: left;
 }
 
-
+/**** General styles ****/
+body {
+	position: relative;
+}
+.anchor {
+	padding-top: 50px;
+}
 
 
 /*Typography*/
