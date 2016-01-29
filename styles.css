@@ -29,6 +29,7 @@ nav {
 /**** Main columns ****/
 .row {
 	margin: 30px;
+	
 }
 
 /**** Work ****/
@@ -134,6 +135,9 @@ nav {
 .form-control {
 	width: 60%;
 }
+button {
+	width: 60%;
+}
 
 /**** Footer ****/
 footer {
@@ -169,6 +173,8 @@ p
 li {
 	font-family: Georgia, Big Caslon, Baskerville, serif;
 }
+
+
 
 
 
